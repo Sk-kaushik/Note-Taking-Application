@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_weight="1"
+    android:background="@color/editorToolbar"
+    android:orientation="vertical"
+    android:theme="@style/ToolbarColoredBackArrow">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/add_img"
+            style="@android:style/Widget.Holo.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="78dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="end|center"
+            android:src="@drawable/ic_image_black_24dp"
+            android:text="Save"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveButton"
+            style="@android:style/Widget.Holo.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="end|center"
+            android:text="Save"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</androidx.appcompat.widget.Toolbar>

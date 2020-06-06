@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EF6C00</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FBDE4B</color>
+    <color name="AppName">#EEE</color>
+    <color name="editorToolbar">#EEE</color>
+    <color name="textSelected">#D00F91F4</color>
+    <color name="deleteBackground">#F10A0A</color>
+    <color name="editBackground">#0CA32D</color>
+    <color name="bottomSheet">#181717</color>
+    <color name="RippleColor">#333232</color>
+
+</resources>
